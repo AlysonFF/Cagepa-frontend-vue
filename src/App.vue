@@ -1,8 +1,10 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+<!--  <nav>-->
+<!--    <router-link to="/">Login</router-link> |-->
+<!--    <router-link to="/cadastro">Cadastro</router-link> |-->
+<!--    <router-link to="/servicos">Serviços</router-link>-->
+<!--  </nav>-->
+  <notifications/>
   <router-view/>
 </template>
 
@@ -27,4 +29,6 @@ nav a {
 nav a.router-link-exact-active {
   color: #42b983;
 }
+
+
 </style>
